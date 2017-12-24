@@ -15,12 +15,12 @@ Usage:
 Example usage for scraping Yelp.
 
 
-Get all Bars data from New Orleans, LA.
+Find Bars data in New Orleans, LA.
 
     scrapy crawl yelpscraper -a search="Bars" -a location="New Orleans, LA"
 
 
-Get all Restaurants that serves Barbers in New York using zipcode.
+Find Barbers in New York using zipcode.
 
     scrapy crawl yelpscraper -a search="Barbershop" -a location="100001"
 
