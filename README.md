@@ -32,8 +32,6 @@ Save the results in a json file.
 ----------
 
 
-I used Python 2.7 and Scrapy to build this.
-
-Feel free to send in pull requests.
+I used Python 2.7 and Scrapy to build this. Feel free to send in pull requests.
 
 Next step will be to call the scrapy spider from another python script to make the usage easier.
