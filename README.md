@@ -5,7 +5,7 @@ Installation:
 -------------
 
 
-    $ git clone https://github.com/RavenHustler/yelp-data-scraper
+    $ git clone https://github.com/RavenHustler/yelpscraper
     $ cd yelpscraper
     $ pip install -r requirements.txt
 
@@ -30,6 +30,10 @@ Save the results in a json file.
     scrapy crawl yelpscraper -a search=Cafe -a location="New Orleans, LA" -o cafes.json
 
 ----------
+
+
 I used Python 2.7 and Scrapy to build this.
+
 Feel free to send in pull requests.
+
 Next step will be to call the scrapy spider from another python script to make the usage easier.
